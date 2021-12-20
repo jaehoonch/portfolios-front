@@ -11,19 +11,14 @@ import { HomeIcon } from "@heroicons/react/solid"
 
 const Header = () => {
     return (
-        <div className="shadow-sm border-b bg-white sticky top-0 z-50">
-            <div className="flex justify-between max-w-6xl mx-5 lg:mx-auto">
-                {/* Left */}
-                <div className="relative hidden lg:inline-grid w-24 cursor-pointer items-center">
-                    {/* <Image
-                        src="https://links.papareact.com/ocw"
-                        layout="fill"
-                        objectFit="contain"
-                    /> */}
-                    <h1 className="text-xl font-serif italic font-medium">Portfolios</h1>
-                </div>
-                <div className="relative w-10 lg:hidden flex-shrink-0 cursor-pointer items-center">
-                    <h1 className="text-xl font-serif italic font-medium">P</h1>
+        // <div className="shadow-sm border-b top-0 z-50 bg-white">
+        <div className="top-0 z-50">
+            <div className="flex justify-between mx-5 lg:mx-auto px-16">
+                {/* <div className="relative hidden lg:inline-grid w-24 cursor-pointer items-center">
+                    <h1 className="text-xl font-bold text-gray-600">Portfolios</h1>
+                </div> */}
+                <div className="flex items-center">
+                    <MenuIcon className="h-6 cursor-pointer" />
                 </div>
 
                 {/* Middle */}
